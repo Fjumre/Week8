@@ -1,0 +1,17 @@
+[project]
+name = "etl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mysql-connector-python>=9.4.0",
+    "pandas>=2.3.3",
+    "uuid>=1.30",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.0.1",
+    "snakeviz>=2.2.2",
+]
